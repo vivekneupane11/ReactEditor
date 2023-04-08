@@ -35,7 +35,7 @@ const HTMLJSON = {
         {
           type: "Element",
           tagName: "div",
-          attributes: {},
+          attributes: {className:'first-child'},
           children: [
             {
               type: "Text",
@@ -297,7 +297,7 @@ const HTMLJSON = {
         {
           type: "Element",
           tagName: "div",
-          attributes: {},
+          attributes: {className:'second-child'},
           children: [
             { type: "Text", content: "\n                        " },
             {

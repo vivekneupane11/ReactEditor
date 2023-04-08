@@ -32,6 +32,9 @@ main {
   justify-content: space-between;
   background-color: #fcfcfc;
 }
+
+
+
 legend{
   position: absolute;
   top: 15px;
@@ -387,10 +390,10 @@ span{
   .comment-panel{
     position: absolute;
     transform: translate(-20%, -20%);
-    bottom: 0;
+    bottom: -200px;
     background: #fff;
     width: 400px;
-    height: 245px;
+    height: 145px;
     border-radius: 12px;
     padding: 2px;
     background-color: lightcyan;
@@ -569,6 +572,28 @@ right: 12px;
 
  
 
+}
+@media screen 
+and (max-width: 769px) { 
+  .first-child{
+    display: none;
+  }
+  .second-child{
+    width: 100% !important;
+  }
+  table{
+    display: none;
+
+  }
+  .floatingEditorBtn .comment-panel{
+    width: 50px;
+    height: 55px;
+    transform: translate(-5%,20%);
+    bottom: 40px;
+  }
+ .floatingEditorBtn{
+margin-left: 120px;
+}
 }
 
 // span.undo-tool{
