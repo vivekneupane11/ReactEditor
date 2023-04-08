@@ -1,0 +1,53 @@
+&:hover{
+    //   // color:rgb(4, 255, 25);
+    //   cursor: pointer;
+    // //       width:180px;
+    //   // border-radius: 6px;
+    // //       font-size: 17.5px;
+    // //       z-index: 1000;
+    //    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    //    background-color: rgba(0, 0, 0, 0.2);
+    //    border: none;
+    //    color:yellow;
+    // // z-index: 1000;
+    // //       position: absolute;
+    // // // left: -1000px;
+    // // border-radius: 60px;
+    
+    //   &::before{
+    // background: rgba(0, 0, 0, 0.8);
+    // opacity: 1;
+    // display: block;
+    // transition: 0.2s background ease-in-out;
+    // color: yellow;
+    // padding-top:20px;
+    // min-height: 270px;
+    // min-width: 270px;
+    // position: fixed;
+    // left: 50%;
+    // top: 50%;
+    // z-index: 1;  
+    // }
+    // &::after{
+    // display: none;  }
+    
+    // }
+    
+     
+     /* position: fixed; */
+    }
+    
+    .{
+ 
+      z-index: -1;
+      
+    
+    }
+    .comment-note-container::after{
+
+    }
+    
+    
+    .comment-note-container::before{
+  
+    }
