@@ -573,6 +573,12 @@ right: 12px;
  
 
 }
+.mobile-info{
+  display: none;
+}
+.info{
+  display: block;
+}
 @media screen 
 and (max-width: 769px) { 
   .first-child{
@@ -584,6 +590,15 @@ and (max-width: 769px) {
   table{
     display: none;
 
+  }
+  .info{
+    display: none;
+  }
+  .heading{
+    font-size: 25px;
+  }
+  .mobile-info{
+    display: block;
   }
   .floatingEditorBtn .comment-panel{
     width: 50px;
